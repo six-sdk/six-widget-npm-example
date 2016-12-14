@@ -1,0 +1,33 @@
+{
+  "name": "widget-test",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --host 0.0.0.0",
+    "build": "webpack -p",
+    "build:dev": "webpack"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "six-population-widget": "^2.1.2-0",
+    "six-sdk": "^0.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.17",
+    "babel-eslint": "^6.1.0",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-class-properties": "^6.4.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
