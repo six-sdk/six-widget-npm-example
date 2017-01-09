@@ -3,8 +3,6 @@
 const sdk = window.sdk = require('six-sdk').default
 const Population = require("six-population-widget").default
 
-const nextTick = function(n) { setTimeout(n,0) }
-
 // token from the API or sdk._internal.authenticateWithCredentials(client_id, client_secret, function(token) {})
 const token = 'OikKAfqHY2xpZW50SURCc2l4i2NyZWF0aW9uVGltZVwyMDE2LTEyLTE0VDE1OjQ2OjM0LjE4NSswMTowMPs=.a7dfd1b0f77e7ddb26eb281310b915a0c72754e4'
 
