@@ -1,7 +1,3 @@
-// ES6
-// import sdk from 'six-sdk'
-// import Population from 'six-population-widget'
-
 // SIX uses ES6 modules, so if we want the default exports within a CommonJS
 // environment we need to extract the module.default property.
 const sdk = window.sdk = require('six-sdk').default
